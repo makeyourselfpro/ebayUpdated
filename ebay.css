@@ -1,0 +1,155 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+
+a{
+text-decoration: none;
+color: blue;
+margin: 0 10px;
+font-size: 15px;
+transition: 0.3s;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: brown;
+}
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+transition: 0.15s;
+}
+div{
+width: 80%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 5px;
+    border-bottom: 1px solid rgb(191, 189, 189);
+background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;}
+ul{
+display: flex;
+}
+ul>h5>a{color: brown;text-decoration: underline;}
+
+/* < !-- row1 end --> */
+.row2{
+padding: 10px 0;
+}
+
+.row2>p{
+width: 5%;
+}
+input{
+width: 800px;
+padding:5px 10px;
+border: 2px solid black;
+font-size: 20px;
+}
+label{
+position: relative;
+left: -12%;
+border-left: 1px solid black;
+line-height: 35px;
+}
+button{
+font-size: 20px;
+margin-left: -120px;
+padding: 5px 30px;
+background-color: cadetblue;
+color: white;
+border: none;
+}
+.row2>h1{
+  margin-left: 20px;
+  font-size: 50px;
+}
+/* 
+< !--
+/* < !-- row2 end */
+
+.row4{
+height: 300px;
+}
+/* 
+<!-- /* < !-- row4 end */
+
+.row6>a{text-align: center; line-height: 30px;}
+.row6>a>.image{
+padding: 80px;
+border-radius: 50%;
+}
+
+.row9>a>.image{
+padding: 100px;
+  border-radius: 5%;
+}
+.row5>h1{font-size: 25px; margin: 50px 0;}
+
+
+
+    /* < !-- row10 --> */
+
+    
+.row10>ul{
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+
+}
+.row10{
+  align-items: center;
+  align-items: start;
+  margin: 70px 0;
+}
+    /* 
+  <!-- row10 --> */
+
+  footer{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* imagesss */
+  .row4{ background: url(headerImage_files/row4.webp);}
+  .zero{ background: url(headerImage_files/14.webp);}
+  .one{ background: url(headerImage_files/1.webp);}
+  .two{ background: url(headerImage_files/2.webp);}
+  .three{ background: url(headerImage_files/3.webp);}
+  .four{ background: url(headerImage_files/4.webp);}
+  .five{ background: url(headerImage_files/5.webp);}
+  .six{ background: url(headerImage_files/6.webp);}
+  .seven{ background: url(headerImage_files/7.webp);}
+  .eight{ background: url(headerImage_files/8.webp);}
+  .nine{ background: url(headerImage_files/9.webp);}
+  .ten{ background: url(headerImage_files/10.webp);}
+  .eleven{ background: url(headerImage_files/11.webp);}
+  .twelve{ background: url(headerImage_files/12.webp);}
+  .thirteen{ background: url(headerImage_files/13.webp);}
+  .fifteen{ background: url(headerImage_files/15.webp);}
+  .sixteen{ background: url(headerImage_files/16.webp);}
+  .seventeen{ background: url(headerImage_files/17.webp);}
+  .eighteen{ background: url(headerImage_files/18.webp);}
+  .nineteen{ background: url(headerImage_files/19.webp);}
+
+
+  a>.image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.15s;
+  }
+    a>.image:hover{
+      transform: translateY(-15px);
+    }
+  .row1{
+  }
